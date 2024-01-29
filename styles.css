@@ -1,0 +1,54 @@
+#navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 215px;
+    background-color: #f2f2f2;
+    padding: 10px;
+    border-right: 4px solid grey;
+    height: 100%;
+}
+
+.nav-link{
+    display: block;
+    text-decoration-line: none;
+    margin-top: 30px; color: grey;
+}
+
+#main-doc{
+    margin-left: 220px;
+    padding: 20px;
+}
+
+
+@media (max-width: 768px) {
+    #navbar{
+        width: 100%;
+        position: static;
+    }
+    #main-doc{
+        margin-left: 0;
+    }
+}
+
+.style{
+ background: grey; width: 300px !important; height: 100px !important;
+}
+
+header{
+    font-weight: bold; font-size: 25px;
+}
+.list-style{
+    list-style-type: circle; margin-left: 50px; margin-top: 30px;
+}
+p{
+    font-weight: normal; font-size: 15px; color: grey;
+}
+
+.line{
+    border-bottom: 2px solid grey; width: 225px;
+}
+
+ul{
+   color: grey; 
+}
